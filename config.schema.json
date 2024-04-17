@@ -1,0 +1,22 @@
+{
+  "pluginAlias": "RinnaiHeater",
+  "pluginType": "platform",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "required": true,
+        "default": "Aquecedor Banheiro"
+      },
+      "host": {
+        "title": "IP Address / Hostname",
+        "type": "string",
+        "required": true,
+        "format": "hostname"
+      }
+    }
+  }
+}
